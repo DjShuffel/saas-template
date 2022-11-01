@@ -1,0 +1,15 @@
+projects:
+  appsync-c206060:
+    schemaPath: src/graphql/schema.json
+    includes:
+      - /graphql/**/*.ts
+    excludes:
+      - ./amplify/**
+    extensions:
+      amplify:
+        codeGenTarget: typescript
+        generatedFileName: /graphql/API.ts
+        docsFilePath: /graphql
+        region: eu-central-1
+        apiId: lb7qigkrn5fkvhqcxhrjta7ija
+        maxDepth: 4
